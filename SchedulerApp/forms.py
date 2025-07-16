@@ -12,14 +12,14 @@ class UserLoginForm(AuthenticationForm):
         attrs={
             'class': 'form-control',
             'type': 'text',
-            'placeholder': 'UserName',
+            'placeholder': 'Nombre de Usuario',
             'id': 'id_username'
         }))
     password = forms.CharField(widget=forms.PasswordInput(
         attrs={
             'class': 'form-control',
             'type': 'password',
-            'placeholder': 'Password',
+            'placeholder': 'Contraseña',
             'id': 'id_password',
         }))
 

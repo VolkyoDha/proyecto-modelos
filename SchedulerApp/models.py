@@ -23,11 +23,11 @@ TIME_SLOTS = (
 # )
 
 DAYS_OF_WEEK = (
-    ('Monday', 'Monday'),
-    ('Tuesday', 'Tuesday'),
-    ('Wednesday', 'Wednesday'),
-    ('Thursday', 'Thursday'),
-    ('Friday', 'Friday'),
+    ('Lunes', 'Lunes'),
+    ('Martes', 'Martes'),
+    ('Miércoles', 'Miércoles'),
+    ('Jueves', 'Jueves'),
+    ('Viernes', 'Viernes'),
 )
     # ('Saturday', 'Saturday'),
 

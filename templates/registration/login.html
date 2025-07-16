@@ -4,11 +4,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <title>Iniciar Sesión</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="DSC AISSMSCOE">
-    <meta name="description" content="Login">
+    <meta name="description" content="Iniciar Sesión">
 
     <!-- Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -25,10 +25,10 @@
           <div class="row">
             <div class="col">
               <div class="text-center loginLeft">
-                <h4 class="logWelC">WELCOME TO </h4>
+                <h4 class="logWelC">BIENVENIDO A </h4>
                 <img class="logoLogin" src="{% static 'img/logo.jpg' %}">
                 <h3 class="Alignment">
-                  <center><strong>COLLEGE OF ENGINEERING</strong></center>
+                  <center><strong>FACULTAD DE INGENIERÍA</strong></center>
                 </h3>
                 <h3 class="Alignment">
                   <center><strong>PUNE</strong></center>
@@ -38,7 +38,7 @@
             </div>
             <div class="col">
               <div class="loginRight">
-                <h3><strong>Sign In </strong></h3>
+                <h3><strong>Iniciar Sesión </strong></h3>
                 <div class="form-group has-feedback">
                   {{ form.username }}
                   <span class="glyphicon glyphicon-user  form-control-feedback"></span>
@@ -47,10 +47,10 @@
                   {{ form.password }}
                   <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                   {% if form.errors %}
-                  <span class="lblnote">Invalid User Name Or Password.</span>
+                  <span class="lblnote">Nombre de usuario o contraseña inválidos.</span>
                   {% endif %}
                 </div>
-                <button type="submit" class="btn btn-info"><span class="fa fa-unlock-alt" ></span>&nbsp;Login</button>
+                <button type="submit" class="btn btn-info"><span class="fa fa-unlock-alt" ></span>&nbsp;Iniciar Sesión</button>
               </div>
             </div>
           </div>
